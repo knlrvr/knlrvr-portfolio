@@ -66,7 +66,7 @@ export default function Contact() {
             Contact
         </h3>
         <p className="absolute px-10 top-24 tracking-widest text-sm font-thin text-gray-600 dark:text-gray-200">
-            Send me a message and I'll get back to you as soon as I can!
+            Send me a message and I&apos;ll get back to you as soon as I can!
         </p>
 
         <div className="w-full mt-20">

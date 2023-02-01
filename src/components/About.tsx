@@ -34,7 +34,7 @@ export default function About({}: Props) {
         <div className="px-2 md:px-20">
             <p className="md:px-10 font-thin">
               <br />
-              Hello! My name is <strong>Kane Lariviere</strong>. I'm a software engineer 
+              Hello! My name is <strong>Kane Lariviere</strong>. I&apos;m a software engineer 
               based in Charlotte, North Carolina.
               <br /><br />
               I love to create things. <strong>Anything</strong>. I have a fierce passion for 
@@ -43,7 +43,7 @@ export default function About({}: Props) {
               <em> accessibility</em> and <em> affordability</em> are essential to maintaining 
               the universality of the web.
               <br /><br />
-              When I'm not building and designing while slouched over my computer, I love to 
+              When I&apos;m not building and designing while slouched over my computer, I love to 
               play video games, make music, and spend time with my family, all while 
               complaining about my neck and back pain.
             </p>
