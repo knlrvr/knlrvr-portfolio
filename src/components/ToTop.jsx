@@ -26,22 +26,24 @@ export default function ToTop() {
       duration: 1
     }}
     >
-      <div className="flex absolute bottom-5 right-16 text-xl z-50">
+      <div className="flex absolute bottom-5 right-16 text-xl z-40">
         {colorTheme === "light" ? (
           <BsSun  
             onClick={() => setTheme("light")}
-            className="cursor-pointer"
+            className="cursor-none hover:text-gray-300"
           />
         ) : (
           <BsMoon 
             onClick={() => setTheme("dark")}
-            className="cursor-pointer"
+            className="cursor-none hover:text-gray-300"
           />
         )}
       </div>
-      <div className="flex absolute bottom-4 right-5 text-3xl z-50">
+      <div className="flex absolute bottom-4 right-5 text-3xl z-40">
           <Link href="#home">
-              <BsChevronBarUp />
+              <BsChevronBarUp 
+                className="cursor-none hover:text-gray-300" 
+              />
           </Link>
       </div>
     </motion.div>

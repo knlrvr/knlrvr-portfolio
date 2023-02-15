@@ -1,5 +1,6 @@
 import React, { useState } from 'react'
 import * as emailjs from '@emailjs/browser'
+import { Fade } from 'react-awesome-reveal'
 
 export default function Contact() {
 
@@ -70,6 +71,7 @@ export default function Contact() {
         </p>
 
         <div className="w-full mt-20">
+        <Fade dampening={0.5} triggerOnce>
           <form action="#" className="space-y-4"
                 onSubmit={handleSubmit}>
             <div>
@@ -137,6 +139,7 @@ export default function Contact() {
               <p>{formData.alertmessage}</p>
             </div>
           </form>
+          </Fade>
         </div>
         <div className={formData.loading ? "loading-bar" : "hidden"}></div>
     </div>  

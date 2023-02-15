@@ -7,8 +7,8 @@ import { motion } from 'framer-motion'
 type Props = {}
 
 const style = {
-    heroButton: `px-8 md:px-10 lg:px-16 uppercase hover:text-gray-300 transition 
-                 ease-in-out duration-500 tracking-widest text-xs`
+    heroButton: `px-4 md:px-10 lg:px-16 uppercase hover:text-gray-300 transition 
+                 ease-in-out duration-500 tracking-widest text-xs cursor-none`
 }
 
 export default function Hero({}: Props) {
@@ -23,37 +23,32 @@ export default function Hero({}: Props) {
     });
   return (
     <div className="h-screen flex flex-col items-center justify-center overflow-hidden">
+        <motion.div
+        initial={{
+            x: -1000,
+            opacity: 0,
+            scale: 0.5
+          }}
+          animate={{
+            x: 0,
+            opacity: 1,
+            scale: 1
+          }}
+          transition={{
+            duration: 1
+          }}
+        >
         <div className="flex justify-center">
-
-            {/** full app bg img */}
-            {/**
             <Image 
                 src="/kane.jpeg"
                 width="1000"
                 height="0"
                 alt="kane"
-                className="absolute rounded-full h-64 w-64 mx-auto object-fit blur-3xl top-50"
-            />
-            */}
-
-            <Image 
-                src="/kane-crop-2.svg"
-                width="1000"
-                height="0"
-                alt="kane"
-                className="relative rounded-full h-64 w-64 md:h-80 md:w-80 mx-auto object-fit mt-16"
-            />
+                className="relative rounded-full h-36 w-36 md:h-64 md:w-64 mx-auto object-fit mt-24"
+            />           
         </div>
 
-        {/** // Are circles overrated? 
-        <div className="py-2 mb-4 flex space-x-16 md:space-x-24">
-            <div className="rounded-full bg-gray-700 h-5 w-5"></div>
-            <div className="rounded-full bg-gray-600 h-5 w-5"></div>
-            <div className="rounded-full bg-gray-400 h-5 w-5"></div>
-        </div>
-        */}
-
-        <h2 className="md:text-xl uppercase font-thin text-black tracking-[10px] text-center mt-10 dark:text-white">
+        <h2 className="md:text-xl uppercase font-thin text-black tracking-[10px] text-center mt-8 dark:text-white">
             software engineer 
             <br />
             &
@@ -64,14 +59,12 @@ export default function Hero({}: Props) {
             <Cursor cursorColor="#a0aec0;" />
         </h1>
 
-        <div className="text-sm mt-20 text-gray-800 dark:text-white">
-            {/** // does this line look weird? i haven't slept in 33 hours
-            <div className="flex mb-4">
-                <hr className="border-black w-2/3 flex-grow"/>
-            </div>
-            */}
+        <div className="text-sm mt-20 mb-20 text-gray-800 dark:text-white">
             <Link href="#about">
                 <button className={style.heroButton}>About</button>
+            </Link>
+            <Link href="#skills">
+                <button className={style.heroButton}>Skills</button>
             </Link>
             <Link href="#projects">
                 <button className={style.heroButton}>Projects</button>
@@ -80,6 +73,7 @@ export default function Hero({}: Props) {
                 <button className={style.heroButton}>Contact</button>
             </Link>
         </div>
+        </motion.div>
     </div>
   )
 }

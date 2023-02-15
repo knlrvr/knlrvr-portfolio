@@ -12,7 +12,7 @@ type Props = {}
 
 export default function Header({}: Props) {
   return (
-    <header className="sticky top-0 flex items-start justify-between max-w-6xl mx-auto py-2 z-50 w-full bg-white dark:bg-black">
+    <header className="sticky top-0 flex items-start justify-between max-w-6xl mx-auto py-2 z-50 w-full">
       <motion.div 
         initial={{
           x: -500,
@@ -55,18 +55,19 @@ export default function Header({}: Props) {
       <div className="flex space-x-4 md:space-x-8 lg:space-x-12 px-4 py-2 text-2xl">
         <Link href="https://github.com/knlrvr" target="_blank">
           <BsGithub 
-            className=""/>
+            className="cursor-none hover:text-gray-300"/>
         </Link>
         <Link href="https://linkedin.com/in/kane-lariviere" target="_blank">
           <BsLinkedin 
-            className="" />
+            className="cursor-none hover:text-gray-300" />
         </Link>
         <Link href="https://twitter.com/knlrvr" target="_blank">
           <BsTwitter 
-            className="" />
+            className="cursor-none hover:text-gray-300" />
         </Link>
         <Link href="/LARIVIERE, KANE.pdf" target="_blank">
-          <BsDownload />
+          <BsDownload 
+            className="cursor-none hover:text-gray-300" />
         </Link>
       </div>
       </motion.div>
