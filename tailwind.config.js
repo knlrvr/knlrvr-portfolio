@@ -6,8 +6,17 @@ module.exports = {
   content: [
     './src/**/*.{js,jsx,ts,tsx}'
   ],
+  variants: {
+    extend: {
+      visibility: ['group-hover'],
+    },
+  },
   theme: {
-    extend: {},
+    extend: {
+      fontFamily: {
+        'marker': ['Permanent Marker', 'cursive']
+      },
+    },
   },
   plugins: [],
 }

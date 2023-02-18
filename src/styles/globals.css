@@ -1,7 +1,10 @@
+/* tailwind */ 
+@import url('https://fonts.googleapis.com/css2?family=Permanent+Marker&display=swap');
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
 
+/* general */
 * {
   box-sizing: border-box;
   padding: 0;
@@ -19,8 +22,17 @@ body {
 .cursor {
   width: 32px;
   height: 32px;
-  border: 2px solid black;
+  background: transparent;
+  border: 1px solid black;
   border-radius: 50%;
+  position: fixed;
+  pointer-events: none;
+}
+
+.cursor::after {
+  width: 5px;
+  height: 5px;
+  background: black;
   position: fixed;
   pointer-events: none;
 }
@@ -42,3 +54,26 @@ body {
   animation: cursorAnim .3s forwards;
 }
 
+@media screen and (max-width:800px) {
+  .cursor {
+    display: none;
+  }
+}
+
+@media screen and (max-height:800px) {
+  .description {
+    display: none;
+  }
+  .details {
+    display: none;
+  }
+}
+
+@media screen and (max-width: 375px) {
+  .details {
+    display: none;
+  }
+  .titles {
+    display: none;
+  }
+}

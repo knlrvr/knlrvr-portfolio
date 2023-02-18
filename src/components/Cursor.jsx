@@ -1,6 +1,6 @@
 import React, { useEffect, useRef } from 'react'
 
-export default function CustomCursor() {
+export default function NewCursor() {
 
     const cursorRef = useRef(null)
 
@@ -28,7 +28,7 @@ export default function CustomCursor() {
     }, [])
 
     return (
-        <div className='cursor border border-black dark:border-white' ref={cursorRef}>
+        <div className='z-50 cursor border border-black dark:border-white' ref={cursorRef}>
 
         </div>
     )
