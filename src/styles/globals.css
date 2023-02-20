@@ -6,7 +6,7 @@
 
 /* general */
 * {
-  box-sizing: border-box;
+  box-sizing: border-box !important;
   padding: 0;
   margin: 0;
 }
@@ -54,26 +54,19 @@ body {
   animation: cursorAnim .3s forwards;
 }
 
-@media screen and (max-width:800px) {
+@media screen and (max-width:850px) {
   .cursor {
     display: none;
   }
 }
 
 @media screen and (max-height:800px) {
-  .description {
+  .cursor {
     display: none;
   }
-  .details {
+  .chevron-down {
     display: none;
   }
 }
 
-@media screen and (max-width: 375px) {
-  .details {
-    display: none;
-  }
-  .titles {
-    display: none;
-  }
-}
+        

@@ -13,8 +13,9 @@ module.exports = {
   },
   theme: {
     extend: {
-      fontFamily: {
-        'marker': ['Permanent Marker', 'cursive']
+      backgroundImage: {
+        'hero': "url('')",
+        'hero-two': "url('')",
       },
     },
   },
