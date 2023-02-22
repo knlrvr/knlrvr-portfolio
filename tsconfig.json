@@ -19,6 +19,6 @@
       "@/*": ["./src/*"]
     },
   },
-  "include": ["next-env.d.ts", "**/*.ts", "**/*.tsx", "src/components/Contact.jsx", "src/csrc/pages/Projects.tsxrc/components/ToTop.jsx"],
+  "include": ["next-env.d.ts", "**/*.ts", "**/*.tsx", "src/pages/Contact.jsx", "src/csrc/pages/Projects.tsxrc/components/ToTop.jsx"],
   "exclude": ["node_modules"]
 }

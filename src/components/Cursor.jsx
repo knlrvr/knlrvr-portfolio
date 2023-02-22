@@ -11,7 +11,7 @@ export default function NewCursor() {
         document.addEventListener('mousemove', e => {
             if (cursorRef.current == null)
                 return;
-            cursorRef.current.setAttribute("style", "top: " + (e.pageY - 15) + "px; left: " + (e.pageX - 15) + "px;")
+            cursorRef.current.setAttribute("style", "top: " + (e.clientY - 16) + "px; left: " + (e.clientX - 16) + "px;")
         })
 
         document.addEventListener('click', () => {

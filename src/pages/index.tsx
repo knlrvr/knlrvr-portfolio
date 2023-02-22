@@ -1,19 +1,18 @@
 import Head from 'next/head'
+import Link from 'next/link'
 
 import Header from '@/components/Header'
 import Footer from '@/components/Footer'
-import Hero from '@/components/Hero'
-import About from '@/components/About'
-import Projects from '@/components/Projects'
-import Contact from '@/components/Contact'
 import NewCursor from '@/components/Cursor'
-import ToTop from '@/components/ToTop'
 
 import Fade from 'react-awesome-reveal'
+import {
+  BsArrowRight
+} from 'react-icons/bs'
 
 export default function Home() {
   return (
-    <div className="bg-white dark:bg-black h-screen snap-y snap-mandatory overflow-scroll cursor-none dark:text-white">
+    <div className="bg-gray-200 dark:bg-black dark:text-white h-screen">
       <Head>
         <title>Kane Lariviere</title>
         {/** meta */}
@@ -23,29 +22,35 @@ export default function Home() {
       <NewCursor />
       <Header />
       <Footer />
-      <ToTop />
+
       {/** page */}
-
-      {/** Hero */}
-      <section id="home" className="">
-        <Hero />
-      </section>
-
-      {/** About */}
-      <section id="about" className="">
-        <About />
-      </section>
-
-      {/** Projects */}
-      <section id="projects" className="">
-        <Projects />
-      </section>
-
-      {/** Contact */}
-      <section id="contact" className="">
-        <Contact />
-      </section>
-
+      <div className="content flex flex-col justify-center items-center h-screen">
+        <Fade cascade>
+          <h2 className="text_shadows font-outline-2 pl-2">welcome!</h2>
+          <h3 className="text-xl font-thin uppercase text-black tracking-[10px] mb-3">
+            &bull; kane lariviere &bull;
+          </h3>
+          <span className="text-gray-500 text-sm uppercase">
+            software engineer. developer. designer.
+          </span>
+          <div className="py-16 flex space-x-14">
+            <div>
+              <Link href="/Projects"
+                className="items-center flex space-x-2 font-thin hover:text-gray-500 hover:underline underline-offset-8">
+                <span>Recent Projects</span>
+                <BsArrowRight /> 
+              </Link>
+            </div>
+            <div>
+              <Link href="/About"
+                className="items-center flex space-x-2 font-thin hover:text-gray-500 hover:underline underline-offset-8">
+                <span>About Me</span>
+                <BsArrowRight /> 
+              </Link>
+            </div>
+          </div>
+        </Fade>
+      </div>
     </div>
   )
-}3
+}

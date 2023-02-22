@@ -1,6 +1,5 @@
 import React from 'react'
 import { 
-  BsChevronBarUp,
   BsSun,
   BsMoon
 } from 'react-icons/bs'
@@ -10,7 +9,7 @@ export default function ToTop() {
   const [colorTheme, setTheme] = useDarkMode();
   return (
     <>
-    <div className="flex absolute bottom-6 right-5 md:right-10 text-xl z-50 text-black dark:text-white">
+    <div className="fixed bottom-5 right-5 text-xl z-50 text-black dark:text-white">
       {colorTheme === "light" ? (
         <BsSun  
           onClick={() => setTheme("light")}
