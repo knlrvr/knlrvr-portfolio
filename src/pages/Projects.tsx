@@ -117,7 +117,7 @@ export default function Home() {
                   <BsArrowUpRight />
                 </Link>
                 <p className="my-2 text-lg">
-                  A landing page for FAKE, "a company that does not exist."
+                  A landing page for FAKE, &quot;a company that does not exist.&quot;
                 </p>
                 <div className="flex flex-wrap gap-2 items-center mt-4">
                   <div className="text-xs uppercase font-bold tracking-wider bg-blue-300 inline-block px-2 py-1 rounded mr-2">
