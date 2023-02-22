@@ -33,7 +33,7 @@ export default function Home() {
         {/** 1 */}
         <div className="container mx-auto">
           <div>
-            <div className="bg-gray-100 rounded p-2 md:flex justify-between">
+            <div className="bg-gray-100 rounded p-6 md:flex justify-between">
               <div>
                 <Link href="https://abstract-knlrvr.vercel.app" target="_blank" className="flex items-center space-x-4 hover:text-gray-500">
                   <h4 className="text-2xl font-thin tracking-[5px]">
@@ -72,7 +72,7 @@ export default function Home() {
         {/** 2 */}
         <div className="container mx-auto">
           <div>
-            <div className="bg-gray-100 rounded p-2 md:flex justify-between">
+            <div className="bg-gray-100 rounded p-6 md:flex justify-between">
               <div>
                 <Link href="https://laravel-notification-channels.com/" target="_blank" className="flex items-center space-x-4 hover:text-gray-500">
                   <h4 className="text-2xl font-thin tracking-[5px]">
@@ -108,7 +108,7 @@ export default function Home() {
         {/** 3 */}
         <div className="container mx-auto">
           <div>
-            <div className="bg-gray-100 rounded p-2 md:flex justify-between">
+            <div className="bg-gray-100 rounded p-6 md:flex justify-between">
               <div>
                 <Link href="https://knlrvr.github.io/fake" target="_blank" className="flex items-center space-x-4 hover:text-gray-500">
                   <h4 className="text-2xl font-thin tracking-[5px]">
@@ -147,7 +147,7 @@ export default function Home() {
         {/** 4 */}
         <div className="container mx-auto">
           <div>
-            <div className="bg-gray-100 rounded p-2 md:flex justify-between">
+            <div className="bg-gray-100 rounded p-6 md:flex justify-between">
               <div>
                 <Link href="https://knlrvr.github.io/REST-Countries" target="_blank" className="flex items-center space-x-4 hover:text-gray-500">
                   <h4 className="text-2xl font-thin tracking-[5px]">
