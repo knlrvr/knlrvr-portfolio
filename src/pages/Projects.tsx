@@ -30,7 +30,6 @@ export default function Home() {
       </div>
 
       <div className="px-6 flex flex-col gap-8 font-thin justify-center items-start py-16 max-w-3xl mx-auto">
-        <Fade cascade triggerOnce>
           
         {/** 1 */}
         <div className="container mx-auto">
@@ -185,8 +184,6 @@ export default function Home() {
           </div>
         </div>
 
-
-        </Fade>
       </div>
     </div>
     
