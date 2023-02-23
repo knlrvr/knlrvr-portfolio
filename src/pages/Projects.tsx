@@ -12,7 +12,7 @@ import {
 
 export default function Home() {
   return (
-    <div className="bg-gray-200 dark:bg-black dark:text-white md:h-screen">
+    <div className="bg-gray-200 dark:bg-black dark:text-white h-screen overflow-x-scroll">
       <Head>
         <title>Kane Lariviere</title>
         {/** meta */}
@@ -28,7 +28,7 @@ export default function Home() {
         <h1 className="px-6 text-gray-500 text-lg uppercase tracking-[5px] text-center md:text-left">recent projects &bull; </h1>
       </div>
 
-      <div className="px-6 flex flex-col gap-8 font-thin justify-center items-start py-16 max-w-3xl mx-auto">
+      <div className="px-6 flex flex-col gap-8 font-thin justify-center items-start py-16 max-w-3xl mx-auto bg-gray-200">
         
         {/** 1 */}
         <div className="container mx-auto">
