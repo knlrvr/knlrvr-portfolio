@@ -51,7 +51,7 @@ export default function Home() {
               <BsGithub 
                 className="hover:text-gray-500" />
             </Link>
-            <Link href="https://github.com/knlrvr/abstract">
+            <Link href="https://abstract-knlrvr.vercel.app">
               <BsArrowUpRight
                 className="hover:text-gray-500" />
             </Link>
@@ -95,11 +95,11 @@ export default function Home() {
           <div className="px-4 row-span-1 col-span-2 w-full h-full flex justify-between items-center font-thin text-xl tracking-[10px]">
             Ferd Automotive
             <div className="flex space-x-6">
-            <Link href="https://github.com/knlrvr/abstract">
+            <Link href="https://github.com/knlrvr/ferd">
               <BsGithub 
                 className="hover:text-gray-500" />
             </Link>
-            <Link href="https://github.com/knlrvr/abstract">
+            <Link href="https://knlrvr.github.io/ferd">
               <BsArrowUpRight
                 className="hover:text-gray-500" />
             </Link>
@@ -143,11 +143,11 @@ export default function Home() {
           <div className="p-4 row-span-1 col-span-2 w-full h-full flex justify-between items-center font-thin text-xl tracking-[10px]">
             FAKE Company
             <div className="flex space-x-6">
-            <Link href="https://github.com/knlrvr/abstract">
+            <Link href="https://github.com/knlrvr/waves">
               <BsGithub 
                 className="hover:text-gray-500" />
             </Link>
-            <Link href="https://github.com/knlrvr/abstract">
+            <Link href="https://knlrvr.github.io/waves">
               <BsArrowUpRight
                 className="hover:text-gray-500" />
             </Link>
@@ -192,7 +192,7 @@ export default function Home() {
           <div className="p-4 row-span-1 col-span-2 w-full h-full flex justify-between items-center font-thin text-xl tracking-[10px]">
               Personal Portfolio
             <div className="flex space-x-6">
-            <Link href="https://github.com/knlrvr/abstract">
+            <Link href="https://github.com/knlrvr/knlrvr-portfolio">
               <BsGithub 
                 className="hover:text-gray-500" />
             </Link>
