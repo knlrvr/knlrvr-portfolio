@@ -17,8 +17,9 @@ export default function Home() {
     <div className="bg-gray-200 dark:bg-black dark:text-white h-screen overflow-x-scroll">
       <Head>
         <title>Kane Lariviere</title>
-        {/** meta */}
-
+        <meta name="description" content="Projects | Kane Lariviere" />
+        <meta name="viewport" content="width=device-width, initial-scale=1" />
+        <link rel="icon" href="/favicon.ico" />
       </Head>
 
       <NewCursor />
