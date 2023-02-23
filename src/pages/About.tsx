@@ -49,16 +49,16 @@ export default function Home() {
             </p>
 
             <div className="text-left mt-12 flex justify-evenly md:justify-start md:space-x-24 font-thin text-lg">
-              <Link href="/">
+              <Link href="https://github.com/knlrvr">
                 <BsGithub className="hover:text-gray-500" />
               </Link>
-              <Link href="/">
+              <Link href="https://linkedin.com/in/kane-lariviere">
                 <BsLinkedin className="hover:text-gray-500" />
               </Link>
-              <Link href="/">
+              <Link href="https://twitter.com/knlrvr">
                 <BsTwitter className="hover:text-gray-500" />
               </Link>
-              <Link href="/">
+              <Link href="https://instagram.com/kanelarivieresucks">
                 <BsInstagram className="hover:text-gray-500" />
               </Link>
             </div>
