@@ -6,7 +6,7 @@
 My personal portfolio for 2023! 
 
 ## View 
-[knlrvr.dev](https://knlrvr.dev)
+[knlrvr.dev](https://knlrvr.dev) or 
 [knlrvr.com](https://knlrvr.com)
 
 ## Built With
