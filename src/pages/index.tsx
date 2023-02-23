@@ -28,7 +28,7 @@ export default function Home() {
         <Fade cascade>
           <h2 className="text_shadows font-outline-2 pl-2">welcome!</h2>
           <h3 className="text-xl font-thin uppercase text-black tracking-[10px] mb-3">
-            &bull; kane lariviere &bull;
+            kane lariviere
           </h3>
           <span className="text-gray-500 text-sm uppercase">
             software engineer. developer. designer.

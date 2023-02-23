@@ -9,6 +9,7 @@ import {
   BsGithub,
   BsArrowUpRight
 } from 'react-icons/bs'
+import Fade from 'react-awesome-reveal'
 
 export default function Home() {
   return (
@@ -28,12 +29,12 @@ export default function Home() {
         <h1 className="px-6 text-gray-500 text-lg uppercase tracking-[5px] text-center md:text-left">recent projects &bull; </h1>
       </div>
 
-      <div className="px-6 flex flex-col gap-8 font-thin justify-center items-start py-16 max-w-3xl mx-auto bg-gray-200">
-        
+      <div className="px-6 flex flex-col gap-8 font-thin justify-center items-start py-16 max-w-3xl mx-auto">
+          
         {/** 1 */}
         <div className="container mx-auto">
           <div>
-            <div className="bg-gray-100 rounded p-6 border border-gray-300 md:flex justify-between">
+            <div className="bg-gray-100 rounded p-6 md:flex justify-between">
               <div>
                 <Link href="https://abstract-knlrvr.vercel.app" target="_blank" className="flex items-center space-x-4 hover:text-gray-500">
                   <h4 className="text-2xl font-thin tracking-[5px]">
@@ -72,8 +73,7 @@ export default function Home() {
         {/** 2 */}
         <div className="container mx-auto">
           <div>
-            <div className="bg-gray-100 rounded p-6 border border-gray-300 md:flex justify-between">
-              <div>
+            <div className="bg-gray-100 rounded p-6 border border-gray-300 md:flex justify-between">              <div>
                 <Link href="https://laravel-notification-channels.com/" target="_blank" className="flex items-center space-x-4 hover:text-gray-500">
                   <h4 className="text-2xl font-thin tracking-[5px]">
                     Ferd Automotive
@@ -109,6 +109,7 @@ export default function Home() {
         <div className="container mx-auto">
           <div>
             <div className="bg-gray-100 rounded p-6 border border-gray-300 md:flex justify-between">
+
               <div>
                 <Link href="https://knlrvr.github.io/fake" target="_blank" className="flex items-center space-x-4 hover:text-gray-500">
                   <h4 className="text-2xl font-thin tracking-[5px]">
@@ -117,7 +118,7 @@ export default function Home() {
                   <BsArrowUpRight />
                 </Link>
                 <p className="my-2 text-lg">
-                  A landing page for FAKE, "a company that does not exist."
+                  A landing page for FAKE, &quot;a company that does not exist.&quot;
                 </p>
                 <div className="flex flex-wrap gap-2 items-center mt-4">
                   <div className="text-xs uppercase font-bold tracking-wider bg-blue-300 inline-block px-2 py-1 rounded mr-2">
@@ -182,8 +183,6 @@ export default function Home() {
             </div>
           </div>
         </div>
-
-
 
       </div>
     </div>

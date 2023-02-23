@@ -65,6 +65,7 @@ export default function Home() {
 
             <Link href="/Contact"
               className="flex justify-center md:justify-start items-center mt-12 md:mt-24 text-sm space-x-4 hover:text-gray-500 hover:underline underline-offset-8">
+
               <span>Contact Me</span>
               <BsArrowRight />
             </Link>
