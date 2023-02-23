@@ -25,30 +25,30 @@ export default function Navbar() {
             <ul className="hidden md:flex dark:text-white font-thin gap-8">
               <li>
                 <Link href="/" 
-                  className="cursor-none">
+                  className="">
                   <span className="text-sm pr-2 hover:no-underline text-gray-400"> 01 /</span>
                   <span className="hover:text-gray-600 hover:underline hover:underline-offset-4">Home</span>
                 </Link>
               </li>
               <li>
                 <Link href="/About"
-                  className="cursor-none">
+                  className="">
                   <span className="text-sm pr-2 hover:no-underline text-gray-400"> 02 /</span>
-                  <span className="hover:text-gray-700 hover:underline hover:underline-offset-4 active:underline active:underline-offset-4">About</span>
+                  <span className="hover:text-gray-700 hover:underline hover:underline-offset-4">About</span>
                 </Link>
               </li>
               <li>
                 <Link href="/Projects"
-                  className="cursor-none">
+                  className="">
                   <span className="text-sm pr-2 hover:no-underline text-gray-400"> 03 /</span>
-                  <span className="hover:text-gray-600 hover:underline hover:underline-offset-4 active:underline active:underline-offset-4">Projects</span>
+                  <span className="hover:text-gray-600 hover:underline hover:underline-offset-4">Projects</span>
                 </Link>
               </li>
               <li>
                 <Link href="/Contact"
-                  className="cursor-none">
+                  className="">
                   <span className="text-sm pr-2 hover:no-underline text-gray-400"> 04 /</span>
-                  <span className="hover:text-gray-700 hover:underline hover:underline-offset-4 active:underline active:underline-offset-4">Contact</span>
+                  <span className="hover:text-gray-700 hover:underline hover:underline-offset-4">Contact</span>
                 </Link>
               </li>
             </ul>
