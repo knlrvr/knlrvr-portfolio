@@ -50,21 +50,21 @@ export default function Home() {
 
             <div className="text-left mt-12 flex justify-evenly md:justify-start md:space-x-24 font-thin text-lg">
               <Link href="/">
-                <BsGithub />
+                <BsGithub className="hover:text-gray-500" />
               </Link>
               <Link href="/">
-                <BsLinkedin />
+                <BsLinkedin className="hover:text-gray-500" />
               </Link>
               <Link href="/">
-                <BsTwitter />
+                <BsTwitter className="hover:text-gray-500" />
               </Link>
               <Link href="/">
-                <BsInstagram />
+                <BsInstagram className="hover:text-gray-500" />
               </Link>
             </div>
 
             <Link href="/Contact"
-              className="flex justify-center md:justify-start items-center mt-12 md:mt-24 text-sm space-x-4">
+              className="flex justify-center md:justify-start items-center mt-12 md:mt-24 text-sm space-x-4 hover:text-gray-500">
               <span>Contact Me</span>
               <BsArrowRight />
             </Link>
