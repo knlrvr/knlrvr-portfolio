@@ -212,6 +212,10 @@ export default function Home() {
             </div>
             <div className="text-xs uppercase font-bold tracking-wider bg-blue-300 md:bg-gray-300 inline-block px-2 py-1 rounded
                             group-hover:bg-blue-300 transition duration-300">
+              TypeScript
+            </div>
+            <div className="text-xs uppercase font-bold tracking-wider bg-blue-300 md:bg-gray-300 inline-block px-2 py-1 rounded
+                            group-hover:bg-blue-300 transition duration-300">
               Tailwind CSS
             </div>
             <div className="text-xs uppercase font-bold tracking-wider bg-blue-300 md:bg-gray-300 inline-block px-2 py-1 rounded
