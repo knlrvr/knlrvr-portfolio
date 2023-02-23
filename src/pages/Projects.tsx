@@ -1,5 +1,6 @@
 import Head from 'next/head'
 import Link from 'next/link'
+import Image from 'next/image'
 
 import Header from '@/components/Header'
 import Footer from '@/components/Footer'
@@ -28,164 +29,200 @@ export default function Home() {
       <div className="flex flex-col mt-12 max-w-6xl mx-auto">
         <h1 className="px-6 text-gray-500 text-lg uppercase tracking-[5px] text-center md:text-left">recent projects &bull; </h1>
       </div>
-
-      <div className="px-6 flex flex-col gap-8 font-thin justify-center items-start py-16 max-w-3xl mx-auto">
           
+      <div className="mt-12 p-6">
+
         {/** 1 */}
-        <div className="container mx-auto">
-          <div>
-            <div className="bg-gray-100 rounded p-6 border border-gray-300 md:flex justify-between">
-              <div>
-                <Link href="https://abstract-knlrvr.vercel.app" target="_blank" className="flex items-center space-x-4 hover:text-gray-500">
-                  <h4 className="text-2xl font-thin tracking-[5px]">
-                    Abstract
-                  </h4>
-                  <BsArrowUpRight />
-                </Link>
-                <p className="my-2 text-lg">
-                  An e-commerce site for Abstract, a company specializing in concepts related to materialism and consumerism.
-                </p>
-                <div className="flex flex-wrap gap-2 items-center mt-4">
-                  <div className="text-xs uppercase font-bold tracking-wider bg-blue-300 inline-block px-2 py-1 rounded mr-2">
-                    React.JS
-                  </div>
-                  <div className="text-xs uppercase font-bold tracking-wider bg-blue-300 inline-block px-2 py-1 rounded mr-2">
-                    Next.js
-                  </div>
-                  <div className="text-xs uppercase font-bold tracking-wider bg-blue-300 inline-block px-2 py-1 rounded mr-2">
-                    Tailwind CSS
-                  </div>
-                  <div className="text-xs uppercase font-bold tracking-wider bg-blue-300 inline-block px-2 py-1 rounded mr-2">
-                    MongoDB
-                  </div>
-                </div>
-              </div>
-              <div className="text-right md:ml-8 flex justify-end items-center mt-4 md:mt-0 space-x-8 px-2 text-2xl">
-                <Link href="https://github.com/knlrvr/abstract">
-                  <BsGithub 
-                    className="hover:text-gray-500" />
-                </Link>
-              </div>
+        <div className="grid grid-cols-1 grid-rows-3 md:grid-cols-4 gap-4 group max-w-5xl mx-auto
+                        border border-gray-300 rounded-xl shadow-md md:shadow-none bg-gray-100 mb-4">
+          <div className="hidden col-span-2 row-span-3 w-full h-full md:flex max-w-sm group">
+            <Image 
+              src="/abs.png"
+              width="1000"
+              height="0"
+              alt=""
+              className="rounded-l-xl filter grayscale group-hover:filter-none transition duration-300"
+              />
+          </div>
+          <div className="p-4 row-span-1 col-span-2 w-full h-full flex justify-between items-center font-thin text-xl tracking-[10px]">
+            ABSTRACT Store
+            <div className="flex space-x-6">
+            <Link href="https://github.com/knlrvr/abstract">
+              <BsGithub 
+                className="hover:text-gray-500" />
+            </Link>
+            <Link href="https://github.com/knlrvr/abstract">
+              <BsArrowUpRight
+                className="hover:text-gray-500" />
+            </Link>
+            </div>
+          </div>
+          <div className="px-4 col-span-2 row-span-1 w-full h-full flex text-left font-thin">
+            An e-commerce site for Abstract, a company specializing in concepts related to materialism and consumerism.
+          </div> 
+          <div className="flex flex-wrap gap-2 items-end col-span-2 pb-4 px-4">
+            <div className="text-xs uppercase font-bold tracking-wider bg-blue-300 md:bg-gray-300 inline-block px-2 py-1 rounded
+                            group-hover:bg-blue-300 transition duration-300">
+              React.JS
+            </div>
+            <div className="text-xs uppercase font-bold tracking-wider bg-blue-300 md:bg-gray-300 inline-block px-2 py-1 rounded
+                            group-hover:bg-blue-300 transition duration-300">
+              Next.js
+            </div>
+            <div className="text-xs uppercase font-bold tracking-wider bg-blue-300 md:bg-gray-300 inline-block px-2 py-1 rounded
+                            group-hover:bg-blue-300 transition duration-300">
+              Tailwind CSS
+            </div>
+            <div className="text-xs uppercase font-bold tracking-wider bg-blue-300 md:bg-gray-300 inline-block px-2 py-1 rounded
+                            group-hover:bg-blue-300 transition duration-300">
+              MongoDB
             </div>
           </div>
         </div>
 
         {/** 2 */}
-        <div className="container mx-auto">
-          <div>
-            <div className="bg-gray-100 rounded p-6 border border-gray-300 md:flex justify-between">              <div>
-                <Link href="https://laravel-notification-channels.com/" target="_blank" className="flex items-center space-x-4 hover:text-gray-500">
-                  <h4 className="text-2xl font-thin tracking-[5px]">
-                    Ferd Automotive
-                  </h4>
-                  <BsArrowUpRight />
-                </Link>
-                <p className="my-2 text-lg">
-                  A Tesla website clone, remade to represent Ferd Automotive (Ford).
-                </p>
-                <div className="flex flex-wrap gap-2 items-center mt-4">
-                  <div className="text-xs uppercase font-bold tracking-wider bg-blue-300 inline-block px-2 py-1 rounded mr-2">
-                    React.js
-                  </div>
-                  <div className="text-xs uppercase font-bold tracking-wider bg-blue-300 inline-block px-2 py-1 rounded mr-2">
-                    Redux Toolkit
-                  </div> 
-                  <div className="text-xs uppercase font-bold tracking-wider bg-blue-300 inline-block px-2 py-1 rounded mr-2">
-                    Styled Components
-                  </div>
-                </div>
-              </div>
-              <div className="text-right md:ml-8 flex justify-end items-center mt-4 md:mt-0 space-x-8 px-2 text-2xl">
-                <Link href="https://github.com/knlrvr/ferd">
-                  <BsGithub 
-                    className="hover:text-gray-500" />
-                </Link>
-              </div>
+        <div className="grid grid-cols-1 grid-rows-3 md:grid-cols-4 gap-4 group max-w-5xl mx-auto
+                        border border-gray-300 rounded-xl shadow-md md:shadow-none bg-gray-100 mb-4">
+          <div className="hidden col-span-2 row-span-3 w-full h-full md:flex max-w-sm group">
+            <Image 
+              src="/ferd.png"
+              width="1000"
+              height="0"
+              alt=""
+              className="rounded-l-xl filter grayscale group-hover:filter-none transition duration-300"
+              />
+          </div>
+          <div className="px-4 row-span-1 col-span-2 w-full h-full flex justify-between items-center font-thin text-xl tracking-[10px]">
+            Ferd Automotive
+            <div className="flex space-x-6">
+            <Link href="https://github.com/knlrvr/abstract">
+              <BsGithub 
+                className="hover:text-gray-500" />
+            </Link>
+            <Link href="https://github.com/knlrvr/abstract">
+              <BsArrowUpRight
+                className="hover:text-gray-500" />
+            </Link>
+            </div>
+          </div>
+          <div className="p-4 col-span-2 row-span-1 w-full h-full flex text-left font-thin">
+            A Tesla website clone, remade to represent Ferd Automotive (Ford).
+          </div> 
+          <div className="flex flex-wrap gap-2 items-end col-span-2 pb-4 px-4">
+            <div className="text-xs uppercase font-bold tracking-wider bg-blue-300 md:bg-gray-300 inline-block px-2 py-1 rounded
+                            group-hover:bg-blue-300 transition duration-300">
+              React.JS
+            </div>
+            <div className="text-xs uppercase font-bold tracking-wider bg-blue-300 md:bg-gray-300 inline-block px-2 py-1 rounded
+                            group-hover:bg-blue-300 transition duration-300">
+              React Redux
+            </div>
+            <div className="text-xs uppercase font-bold tracking-wider bg-blue-300 md:bg-gray-300 inline-block px-2 py-1 rounded
+                            group-hover:bg-blue-300 transition duration-300">
+              Redux Toolkit
+            </div>
+            <div className="text-xs uppercase font-bold tracking-wider bg-blue-300 md:bg-gray-300 inline-block px-2 py-1 rounded
+                            group-hover:bg-blue-300 transition duration-300">
+              Styled Components
             </div>
           </div>
         </div>
 
         {/** 3 */}
-        <div className="container mx-auto">
-          <div>
-            <div className="bg-gray-100 rounded p-6 border border-gray-300 md:flex justify-between">
-
-              <div>
-                <Link href="https://knlrvr.github.io/fake" target="_blank" className="flex items-center space-x-4 hover:text-gray-500">
-                  <h4 className="text-2xl font-thin tracking-[5px]">
-                    FAKE Company
-                  </h4>
-                  <BsArrowUpRight />
-                </Link>
-                <p className="my-2 text-lg">
-                  A landing page for FAKE, &quot;a company that does not exist.&quot;
-                </p>
-                <div className="flex flex-wrap gap-2 items-center mt-4">
-                  <div className="text-xs uppercase font-bold tracking-wider bg-blue-300 inline-block px-2 py-1 rounded mr-2">
-                    HTML
-                  </div>
-                  <div className="text-xs uppercase font-bold tracking-wider bg-blue-300 inline-block px-2 py-1 rounded mr-2">
-                    CSS
-                  </div>
-                  <div className="text-xs uppercase font-bold tracking-wider bg-blue-300 inline-block px-2 py-1 rounded mr-2">
-                    JavaScript
-                  </div>
-                  <div className="text-xs uppercase font-bold tracking-wider bg-blue-300 inline-block px-2 py-1 rounded mr-2">
-                    CSS Animations
-                  </div>
-                </div>
-              </div>
-              <div className="text-right md:ml-8 flex justify-end items-center mt-4 md:mt-0 space-x-8 px-2 text-2xl">
-                <Link href="https://github.com/knlrvr/fake">
-                  <BsGithub 
-                    className="hover:text-gray-500" />
-                </Link>
-              </div>
+        <div className="grid grid-cols-1 grid-rows-3 md:grid-cols-4 gap-4 group max-w-5xl mx-auto
+                        border border-gray-300 rounded-xl shadow-md md:shadow-none bg-gray-100 mb-4">
+          <div className="hidden col-span-2 row-span-3 w-full h-full md:flex max-w-sm group">
+            <Image 
+              src="/waves.png"
+              width="1000"
+              height="0"
+              alt=""
+              className="rounded-l-xl filter grayscale group-hover:filter-none transition duration-300"
+              />
+          </div>
+          <div className="p-4 row-span-1 col-span-2 w-full h-full flex justify-between items-center font-thin text-xl tracking-[10px]">
+            FAKE Company
+            <div className="flex space-x-6">
+            <Link href="https://github.com/knlrvr/abstract">
+              <BsGithub 
+                className="hover:text-gray-500" />
+            </Link>
+            <Link href="https://github.com/knlrvr/abstract">
+              <BsArrowUpRight
+                className="hover:text-gray-500" />
+            </Link>
+            </div>
+          </div>
+          <div className="px-4 col-span-2 row-span-1 w-full h-full flex text-left font-thin">
+            A landing page for FAKE, &quot;a company that does not exist.&quot;
+            This site was an experiment for CSS Animations.
+          </div> 
+          <div className="flex flex-wrap gap-2 items-end col-span-2 pb-4 px-4">
+            <div className="text-xs uppercase font-bold tracking-wider bg-blue-300 md:bg-gray-300 inline-block px-2 py-1 rounded
+                            group-hover:bg-blue-300 transition duration-300">
+              HTML
+            </div>
+            <div className="text-xs uppercase font-bold tracking-wider bg-blue-300 md:bg-gray-300 inline-block px-2 py-1 rounded
+                            group-hover:bg-blue-300 transition duration-300">
+              CSS
+            </div>
+            <div className="text-xs uppercase font-bold tracking-wider bg-blue-300 md:bg-gray-300 inline-block px-2 py-1 rounded
+                            group-hover:bg-blue-300 transition duration-300">
+              JavaScript
+            </div>
+            <div className="text-xs uppercase font-bold tracking-wider bg-blue-300 md:bg-gray-300 inline-block px-2 py-1 rounded
+                            group-hover:bg-blue-300 transition duration-300">
+              CSS Animations
             </div>
           </div>
         </div>
 
         {/** 4 */}
-        <div className="container mx-auto">
-          <div>
-            <div className="bg-gray-100 rounded p-6 border border-gray-300 md:flex justify-between">
-              <div>
-                <Link href="https://knlrvr.github.io/REST-Countries" target="_blank" className="flex items-center space-x-4 hover:text-gray-500">
-                  <h4 className="text-2xl font-thin tracking-[5px]">
-                    REST Countries
-                  </h4>
-                  <BsArrowUpRight />
-                </Link>
-                <p className="my-2 text-lg">
-                  My REST Countries API solution.
-                </p>
-                <div className="flex flex-wrap gap-2 items-center mt-4">
-                  <div className="text-xs uppercase font-bold tracking-wider bg-blue-300 inline-block px-2 py-1 rounded mr-2">
-                    HTML
-                  </div>
-                  <div className="text-xs uppercase font-bold tracking-wider bg-blue-300 inline-block px-2 py-1 rounded mr-2">
-                    CSS
-                  </div>
-                  <div className="text-xs uppercase font-bold tracking-wider bg-blue-300 inline-block px-2 py-1 rounded mr-2">
-                    JavaScript
-                  </div>
-                  <div className="text-xs uppercase font-bold tracking-wider bg-blue-300 inline-block px-2 py-1 rounded mr-2">
-                    REST API
-                  </div>
-                </div>
-              </div>
-              <div className="text-right md:ml-8 flex justify-end items-center mt-4 md:mt-0 space-x-8 px-2 text-2xl">
-                <Link href="https://github.com/knlrvr/REST-Countries">
-                  <BsGithub 
-                    className="hover:text-gray-500" />
-                </Link>
-              </div>
+        <div className="grid grid-cols-1 grid-rows-3 md:grid-cols-4 gap-4 group max-w-5xl mx-auto
+                        border border-gray-300 rounded-xl shadow-md md:shadow-none bg-gray-100 mb-12">
+          <div className="hidden col-span-2 row-span-3 w-full h-full md:flex max-w-sm group">
+            <Image 
+              src="/portfolio.png"
+              width="1000"
+              height="0"
+              alt=""
+              className="rounded-l-xl filter md:grayscale group-hover:filter-none transition duration-300"
+              />
+          </div>
+          <div className="p-4 row-span-1 col-span-2 w-full h-full flex justify-between items-center font-thin text-xl tracking-[10px]">
+              Personal Portfolio
+            <div className="flex space-x-6">
+            <Link href="https://github.com/knlrvr/abstract">
+              <BsGithub 
+                className="hover:text-gray-500" />
+            </Link>
+            </div>
+          </div>
+          <div className="px-4 col-span-2 row-span-1 w-full h-full flex text-left font-thin">
+            Where you are now!
+          </div> 
+          <div className="flex flex-wrap gap-2 items-end col-span-2 pb-4 px-4">
+            <div className="text-xs uppercase font-bold tracking-wider bg-blue-300 md:bg-gray-300 inline-block px-2 py-1 rounded
+                            group-hover:bg-blue-300 transition duration-300">
+              react.js
+            </div>
+            <div className="text-xs uppercase font-bold tracking-wider bg-blue-300 md:bg-gray-300 inline-block px-2 py-1 rounded
+                            group-hover:bg-blue-300 transition duration-300">
+              Next.js
+            </div>
+            <div className="text-xs uppercase font-bold tracking-wider bg-blue-300 md:bg-gray-300 inline-block px-2 py-1 rounded
+                            group-hover:bg-blue-300 transition duration-300">
+              Tailwind CSS
+            </div>
+            <div className="text-xs uppercase font-bold tracking-wider bg-blue-300 md:bg-gray-300 inline-block px-2 py-1 rounded
+                            group-hover:bg-blue-300 transition duration-300">
+              CSS Animations
             </div>
           </div>
         </div>
 
+
       </div>
     </div>
-    
   )
 }
