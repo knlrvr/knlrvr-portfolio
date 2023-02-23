@@ -3,7 +3,7 @@
 ![portfolio](https://user-images.githubusercontent.com/91632194/220643023-45ad1bcc-7aa3-405d-b262-f6a7884d3927.png)
 
 ## Description
-My personal portfolio for 2023! 
+My personal portfolio for 2023! I tried to keep this portfolio simple & minimal yet engaging. Hopefully I did! 
 
 ## View 
 [knlrvr.dev](https://knlrvr.dev) or 
