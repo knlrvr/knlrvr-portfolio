@@ -15,9 +15,10 @@ export default function Home() {
   return (
     <div className="bg-gray-200 dark:bg-black dark:text-white h-screen">
       <Head>
-        <title>Kane Lariviere</title>
-        {/** meta */}
-
+         <title>Kane Lariviere</title>
+        <meta name="description" content="Contact | Kane Lariviere" />
+        <meta name="viewport" content="width=device-width, initial-scale=1" />
+        <link rel="icon" href="/favicon.ico" />
       </Head>
 
       <NewCursor />
