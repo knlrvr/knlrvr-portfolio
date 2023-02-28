@@ -144,11 +144,11 @@ export default function Home() {
           <div className="p-4 row-span-1 col-span-2 w-full h-full flex justify-between items-center font-thin text-xl tracking-[10px]">
             FAKE Company
             <div className="flex space-x-6">
-            <Link href="https://github.com/knlrvr/waves">
+            <Link href="https://github.com/knlrvr/fake">
               <BsGithub 
                 className="hover:text-gray-500" />
             </Link>
-            <Link href="https://knlrvr.github.io/waves">
+            <Link href="https://knlrvr.github.io/fake">
               <BsArrowUpRight
                 className="hover:text-gray-500" />
             </Link>
