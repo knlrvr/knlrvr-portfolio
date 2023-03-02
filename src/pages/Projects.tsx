@@ -80,8 +80,53 @@ export default function Home() {
             </div>
           </div>
         </div>
+        
+                {/* 2 */}
+        <div className="grid grid-cols-1 grid-rows-3 md:grid-cols-4 gap-4 group max-w-5xl mx-auto
+                        border border-gray-300 rounded-xl shadow-md md:shadow-none bg-gray-100 mb-4">
+          <div className="hidden col-span-2 row-span-3 w-full h-full md:flex max-w-sm group">
+            <Image 
+              src="/workout2.png"
+              width="1000"
+              height="0"
+              alt=""
+              className="rounded-l-xl filter grayscale group-hover:filter-none transition duration-300"
+              />
+          </div>
+          <div className="p-4 row-span-1 col-span-2 w-full h-full flex justify-between items-center font-thin text-xl tracking-[10px]">
+            Workout Tracker
+            <div className="flex space-x-6">
+            <Link href="https://github.com/knlrvr/workout-tracker">
+              <BsGithub 
+                className="hover:text-gray-500" />
+            </Link>
+            <Link href="https://workout-tracker-cd97a.web.app/">
+              <BsArrowUpRight
+                className="hover:text-gray-500" />
+            </Link>
+            </div>
+          </div>
+          <div className="px-4 col-span-2 row-span-1 w-full h-full flex text-left font-thin">
+            A workout tracker that allows you to create, update or delete any entries. 
+            This tracks workout name, group (ex. legs, chest, etc), sets and reps. 
+          </div> 
+          <div className="flex flex-wrap gap-2 items-end col-span-2 pb-4 px-4">
+            <div className="text-xs uppercase font-bold tracking-wider bg-blue-300 md:bg-gray-300 inline-block px-2 py-1 rounded
+                            group-hover:bg-blue-300 transition duration-300">
+              React.js
+            </div>
+            <div className="text-xs uppercase font-bold tracking-wider bg-blue-300 md:bg-gray-300 inline-block px-2 py-1 rounded
+                            group-hover:bg-blue-300 transition duration-300">
+              Tailwind
+            </div>
+            <div className="text-xs uppercase font-bold tracking-wider bg-blue-300 md:bg-gray-300 inline-block px-2 py-1 rounded
+                            group-hover:bg-blue-300 transition duration-300">
+              Firebase
+            </div>
+          </div>
+        </div>
 
-        {/** 2 */}
+        {/** 3 */}
         <div className="grid grid-cols-1 grid-rows-3 md:grid-cols-4 gap-4 group max-w-5xl mx-auto
                         border border-gray-300 rounded-xl shadow-md md:shadow-none bg-gray-100 mb-4">
           <div className="hidden col-span-2 row-span-3 w-full h-full md:flex max-w-sm group">
@@ -129,7 +174,7 @@ export default function Home() {
           </div>
         </div>
 
-        {/** 3 */}
+        {/** 4 */}
         <div className="grid grid-cols-1 grid-rows-3 md:grid-cols-4 gap-4 group max-w-5xl mx-auto
                         border border-gray-300 rounded-xl shadow-md md:shadow-none bg-gray-100 mb-4">
           <div className="hidden col-span-2 row-span-3 w-full h-full md:flex max-w-sm group">
@@ -178,7 +223,7 @@ export default function Home() {
           </div>
         </div>
 
-        {/** 4 */}
+        {/** 5 */}
         <div className="grid grid-cols-1 grid-rows-3 md:grid-cols-4 gap-4 group max-w-5xl mx-auto
                         border border-gray-300 rounded-xl shadow-md md:shadow-none bg-gray-100 mb-12">
           <div className="hidden col-span-2 row-span-3 w-full h-full md:flex max-w-sm group">
