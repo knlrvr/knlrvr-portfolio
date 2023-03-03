@@ -17,7 +17,7 @@ export default function Navbar() {
             <div className="px-2 text-xl font-thin tracking-[10px]">
               <Link href="/">
                 <span> &lt;/ </span>
-                <span className="text-gray-400"> knlrvr</span>
+                <span className="text-gray-500 hover:text-blue-400"> knlrvr</span>
                 <span> &gt; </span>
               </Link>
             </div>
