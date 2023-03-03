@@ -48,11 +48,11 @@ export default function Home() {
           <div className="p-4 row-span-1 col-span-2 w-full h-full flex justify-between items-center font-thin text-xl tracking-[10px]">
             ABSTRACT Store
             <div className="flex space-x-6">
-            <Link href="https://github.com/knlrvr/abstract" target="_blank">
+            <Link href="https://github.com/knlrvr/abstract">
               <BsGithub 
                 className="hover:text-gray-500" />
             </Link>
-            <Link href="https://abstract-knlrvr.vercel.app" target="_blank">
+            <Link href="https://github.com/knlrvr/abstract">
               <BsArrowUpRight
                 className="hover:text-gray-500" />
             </Link>
@@ -61,27 +61,35 @@ export default function Home() {
           <div className="px-4 col-span-2 row-span-1 w-full h-full flex text-left font-thin">
             An e-commerce site for Abstract, a company specializing in concepts related to materialism and consumerism.
           </div> 
-          <div className="flex flex-wrap gap-2 items-end col-span-2 pb-4 px-4">
-            <div className="text-xs uppercase font-bold tracking-wider bg-blue-300 md:bg-gray-300 inline-block px-2 py-1 rounded
-                            group-hover:bg-blue-300 transition duration-300">
-              React.JS
-            </div>
-            <div className="text-xs uppercase font-bold tracking-wider bg-blue-300 md:bg-gray-300 inline-block px-2 py-1 rounded
-                            group-hover:bg-blue-300 transition duration-300">
-              Next.js
-            </div>
-            <div className="text-xs uppercase font-bold tracking-wider bg-blue-300 md:bg-gray-300 inline-block px-2 py-1 rounded
-                            group-hover:bg-blue-300 transition duration-300">
-              Tailwind CSS
-            </div>
-            <div className="text-xs uppercase font-bold tracking-wider bg-blue-300 md:bg-gray-300 inline-block px-2 py-1 rounded
-                            group-hover:bg-blue-300 transition duration-300">
-              MongoDB
-            </div>
+          <div className="flex flex-wrap justify-evenly items-center col-span-2 pb-4 px-4">
+            <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/react/react-original-wordmark.svg" 
+              alt="react" 
+              width="40" 
+              height="40" 
+              className="md:grayscale group-hover:filter-none transition duration-300"
+            />
+            <img src="https://cdn.worldvectorlogo.com/logos/nextjs-2.svg" 
+              alt="nextjs" 
+              width="40" 
+              height="40"
+              className="md:grayscale group-hover:filter-none transition duration-300"
+            />
+            <img src="https://www.vectorlogo.zone/logos/tailwindcss/tailwindcss-icon.svg" 
+              alt="tailwind" 
+              width="40" 
+              height="40" 
+              className="md:grayscale group-hover:filter-none transition duration-300"
+            />
+            <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/mongodb/mongodb-original-wordmark.svg" 
+              alt="mongodb" 
+              width="50" 
+              height="50" 
+              className="md:grayscale group-hover:filter-none transition duration-300"
+            />
           </div>
         </div>
-        
-                {/* 2 */}
+
+        {/* 2 */}
         <div className="grid grid-cols-1 grid-rows-3 md:grid-cols-4 gap-4 group max-w-5xl mx-auto
                         border border-gray-300 rounded-xl shadow-md md:shadow-none bg-gray-100 mb-4">
           <div className="hidden col-span-2 row-span-3 w-full h-full md:flex max-w-sm group">
@@ -96,11 +104,11 @@ export default function Home() {
           <div className="p-4 row-span-1 col-span-2 w-full h-full flex justify-between items-center font-thin text-xl tracking-[10px]">
             Workout Tracker
             <div className="flex space-x-6">
-            <Link href="https://github.com/knlrvr/workout-tracker" target="_blank">
+            <Link href="https://github.com/knlrvr/workout-tracker">
               <BsGithub 
                 className="hover:text-gray-500" />
             </Link>
-            <Link href="https://workout-tracker-cd97a.web.app/" target="_blank">
+            <Link href="https://workout-tracker-cd97a.web.app/">
               <BsArrowUpRight
                 className="hover:text-gray-500" />
             </Link>
@@ -110,19 +118,25 @@ export default function Home() {
             A workout tracker that allows you to create, update or delete any entries. 
             This tracks workout name, group (ex. legs, chest, etc), sets and reps. 
           </div> 
-          <div className="flex flex-wrap gap-2 items-end col-span-2 pb-4 px-4">
-            <div className="text-xs uppercase font-bold tracking-wider bg-blue-300 md:bg-gray-300 inline-block px-2 py-1 rounded
-                            group-hover:bg-blue-300 transition duration-300">
-              React.js
-            </div>
-            <div className="text-xs uppercase font-bold tracking-wider bg-blue-300 md:bg-gray-300 inline-block px-2 py-1 rounded
-                            group-hover:bg-blue-300 transition duration-300">
-              Tailwind
-            </div>
-            <div className="text-xs uppercase font-bold tracking-wider bg-blue-300 md:bg-gray-300 inline-block px-2 py-1 rounded
-                            group-hover:bg-blue-300 transition duration-300">
-              Firebase
-            </div>
+          <div className="flex flex-wrap justify-evenly items-end col-span-2 pb-4 px-4">
+            <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/react/react-original-wordmark.svg" 
+              alt="react" 
+              width="40" 
+              height="40" 
+              className="md:grayscale group-hover:filter-none transition duration-300"
+            />
+            <img src="https://www.vectorlogo.zone/logos/tailwindcss/tailwindcss-icon.svg" 
+              alt="tailwind" 
+              width="40" 
+              height="40" 
+              className="md:grayscale group-hover:filter-none transition duration-300"
+            />
+            <img src="https://www.vectorlogo.zone/logos/firebase/firebase-icon.svg" 
+              alt="firebase" 
+              width="40" 
+              height="40"
+              className="md:grayscale group-hover:filter-none transition duration-300"
+            /> 
           </div>
         </div>
 
@@ -141,11 +155,11 @@ export default function Home() {
           <div className="px-4 row-span-1 col-span-2 w-full h-full flex justify-between items-center font-thin text-xl tracking-[10px]">
             Ferd Automotive
             <div className="flex space-x-6">
-            <Link href="https://github.com/knlrvr/ferd" target="_blank">
+            <Link href="https://github.com/knlrvr/ferd">
               <BsGithub 
                 className="hover:text-gray-500" />
             </Link>
-            <Link href="https://knlrvr.github.io/ferd" target="_blank">
+            <Link href="https://knlrvr.github.io/ferd">
               <BsArrowUpRight
                 className="hover:text-gray-500" />
             </Link>
@@ -154,27 +168,23 @@ export default function Home() {
           <div className="p-4 col-span-2 row-span-1 w-full h-full flex text-left font-thin">
             A Tesla website clone, remade to represent Ferd Automotive (Ford).
           </div> 
-          <div className="flex flex-wrap gap-2 items-end col-span-2 pb-4 px-4">
-            <div className="text-xs uppercase font-bold tracking-wider bg-blue-300 md:bg-gray-300 inline-block px-2 py-1 rounded
-                            group-hover:bg-blue-300 transition duration-300">
-              React.JS
-            </div>
-            <div className="text-xs uppercase font-bold tracking-wider bg-blue-300 md:bg-gray-300 inline-block px-2 py-1 rounded
-                            group-hover:bg-blue-300 transition duration-300">
-              React Redux
-            </div>
-            <div className="text-xs uppercase font-bold tracking-wider bg-blue-300 md:bg-gray-300 inline-block px-2 py-1 rounded
-                            group-hover:bg-blue-300 transition duration-300">
-              Redux Toolkit
-            </div>
-            <div className="text-xs uppercase font-bold tracking-wider bg-blue-300 md:bg-gray-300 inline-block px-2 py-1 rounded
-                            group-hover:bg-blue-300 transition duration-300">
-              Styled Components
-            </div>
+          <div className="flex flex-wrap justify-evenly items-end col-span-2 pb-4 px-4 group">
+            <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/react/react-original-wordmark.svg" 
+              alt="react" 
+              width="40" 
+              height="40" 
+              className="md:grayscale group-hover:filter-none transition duration-300"
+            />
+            <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/redux/redux-original.svg" 
+              alt="redux" 
+              width="40" 
+              height="40" 
+              className="md:grayscale group-hover:filter-none transition duration-300"
+            />
           </div>
         </div>
 
-        {/** 4 */}
+        {/* 4 */}
         <div className="grid grid-cols-1 grid-rows-3 md:grid-cols-4 gap-4 group max-w-5xl mx-auto
                         border border-gray-300 rounded-xl shadow-md md:shadow-none bg-gray-100 mb-4">
           <div className="hidden col-span-2 row-span-3 w-full h-full md:flex max-w-sm group">
@@ -189,11 +199,11 @@ export default function Home() {
           <div className="p-4 row-span-1 col-span-2 w-full h-full flex justify-between items-center font-thin text-xl tracking-[10px]">
             FAKE Company
             <div className="flex space-x-6">
-            <Link href="https://github.com/knlrvr/fake" target="_blank">
+            <Link href="https://github.com/knlrvr/abstract">
               <BsGithub 
                 className="hover:text-gray-500" />
             </Link>
-            <Link href="https://knlrvr.github.io/fake" target="_blank">
+            <Link href="https://github.com/knlrvr/abstract">
               <BsArrowUpRight
                 className="hover:text-gray-500" />
             </Link>
@@ -203,23 +213,25 @@ export default function Home() {
             A landing page for FAKE, &quot;a company that does not exist.&quot;
             This site was an experiment for CSS Animations.
           </div> 
-          <div className="flex flex-wrap gap-2 items-end col-span-2 pb-4 px-4">
-            <div className="text-xs uppercase font-bold tracking-wider bg-blue-300 md:bg-gray-300 inline-block px-2 py-1 rounded
-                            group-hover:bg-blue-300 transition duration-300">
-              HTML
-            </div>
-            <div className="text-xs uppercase font-bold tracking-wider bg-blue-300 md:bg-gray-300 inline-block px-2 py-1 rounded
-                            group-hover:bg-blue-300 transition duration-300">
-              CSS
-            </div>
-            <div className="text-xs uppercase font-bold tracking-wider bg-blue-300 md:bg-gray-300 inline-block px-2 py-1 rounded
-                            group-hover:bg-blue-300 transition duration-300">
-              JavaScript
-            </div>
-            <div className="text-xs uppercase font-bold tracking-wider bg-blue-300 md:bg-gray-300 inline-block px-2 py-1 rounded
-                            group-hover:bg-blue-300 transition duration-300">
-              CSS Animations
-            </div>
+          <div className="flex flex-wrap justify-evenly items-end col-span-2 pb-4 px-4">
+            <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/html5/html5-original-wordmark.svg" 
+              alt="html5" 
+              width="40" 
+              height="40" 
+              className="md:grayscale group-hover:filter-none transition duration-300"
+            />
+            <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/css3/css3-original-wordmark.svg" 
+              alt="css3" 
+              width="40" 
+              height="40" 
+              className="md:grayscale group-hover:filter-none transition duration-300"
+            />
+            <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/javascript/javascript-original.svg" 
+              alt="javascript" 
+              width="40" 
+              height="40" 
+              className="md:grayscale group-hover:filter-none transition duration-300"
+            />
           </div>
         </div>
 
@@ -238,7 +250,7 @@ export default function Home() {
           <div className="p-4 row-span-1 col-span-2 w-full h-full flex justify-between items-center font-thin text-xl tracking-[10px]">
               Personal Portfolio
             <div className="flex space-x-6">
-            <Link href="https://github.com/knlrvr/knlrvr-portfolio" target="_blank">
+            <Link href="https://github.com/knlrvr/abstract">
               <BsGithub 
                 className="hover:text-gray-500" />
             </Link>
@@ -247,27 +259,25 @@ export default function Home() {
           <div className="px-4 col-span-2 row-span-1 w-full h-full flex text-left font-thin">
             Where you are now!
           </div> 
-          <div className="flex flex-wrap gap-2 items-end col-span-2 pb-4 px-4">
-            <div className="text-xs uppercase font-bold tracking-wider bg-blue-300 md:bg-gray-300 inline-block px-2 py-1 rounded
-                            group-hover:bg-blue-300 transition duration-300">
-              react.js
-            </div>
-            <div className="text-xs uppercase font-bold tracking-wider bg-blue-300 md:bg-gray-300 inline-block px-2 py-1 rounded
-                            group-hover:bg-blue-300 transition duration-300">
-              Next.js
-            </div>
-            <div className="text-xs uppercase font-bold tracking-wider bg-blue-300 md:bg-gray-300 inline-block px-2 py-1 rounded
-                            group-hover:bg-blue-300 transition duration-300">
-              TypeScript
-            </div>
-            <div className="text-xs uppercase font-bold tracking-wider bg-blue-300 md:bg-gray-300 inline-block px-2 py-1 rounded
-                            group-hover:bg-blue-300 transition duration-300">
-              Tailwind CSS
-            </div>
-            <div className="text-xs uppercase font-bold tracking-wider bg-blue-300 md:bg-gray-300 inline-block px-2 py-1 rounded
-                            group-hover:bg-blue-300 transition duration-300">
-              CSS Animations
-            </div>
+          <div className="flex flex-wrap justify-evenly items-end col-span-2 pb-4 px-4">
+            <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/react/react-original-wordmark.svg" 
+              alt="react" 
+              width="40" 
+              height="40" 
+              className="md:grayscale group-hover:filter-none transition duration-300"
+            />
+            <img src="https://cdn.worldvectorlogo.com/logos/nextjs-2.svg" 
+              alt="nextjs" 
+              width="40" 
+              height="40"
+              className="md:grayscale group-hover:filter-none transition duration-300"
+            />
+            <img src="https://www.vectorlogo.zone/logos/tailwindcss/tailwindcss-icon.svg" 
+              alt="tailwind" 
+              width="40" 
+              height="40" 
+              className="md:grayscale group-hover:filter-none transition duration-300"
+            />
           </div>
         </div>
 
@@ -276,3 +286,4 @@ export default function Home() {
     </div>
   )
 }
+
