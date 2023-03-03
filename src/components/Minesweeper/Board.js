@@ -222,7 +222,7 @@ class Board extends React.Component {
         />
       ));
 
-      return <div className="row">{rowCells}</div>;
+      return <div className="row" key={gridCell.y * row.length + gridCell.x}>{rowCells}</div>;
     });
   }
 
