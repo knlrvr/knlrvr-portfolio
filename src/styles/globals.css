@@ -168,3 +168,97 @@ body {
     transform: translate(0px, 0px);
  }
 }
+
+/* minesweeper */
+/* board */
+.board {
+  display: flex;
+  flex-direction: column;
+  align-items: stretch;
+}
+
+.game-grid {
+  margin: 20px 0px;
+  display: flex;
+  align-self: center;
+  flex-direction: column;
+}
+
+.mines-count {
+  padding: 5px 10px;
+  margin-top: 20px;
+  font-weight: 400;
+  border-radius: 5px;
+  align-self: center;
+  text-align: center;
+  justify-content: center;
+}
+
+.row {
+  display: flex;
+  justify-content: center;
+}
+
+.row:not(last-child) {
+  margin-bottom: 5px;
+}
+
+/* cell */
+.cell {
+  display: flex;
+  background-color: rgb(229 231 235);
+  min-width: 30px;
+  min-height: 30px;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  border-radius: 4px;
+  color: black;
+  font-weight: 600;
+  transition: background-color 0.2s;
+}
+
+.cell:not(first-child) {
+  margin-left: 5px;
+}
+
+.cell:focus {
+  outline: none;
+}
+
+.cell.hidden {
+  background-color: rgb(96 165 250);
+}
+.cell.hidden:hover {
+  background-color: rgb(75 85 99);
+}
+
+/* Flagged incorrectly */
+.cell.is-flag:not(.is-mine):not(.hidden) {
+  background-color: rgb(229 231 235);
+}
+
+/* Flagged correctly */
+.cell.is-flag.is-mine:not(.hidden) {
+  background-color: #4f8755;
+}
+
+/* Clicked on a mine*/
+.cell.is-mine.is-clicked {
+  background-color: rgb(229 231 235);
+}
+
+/* Empty revealed cells*/
+.cell.is-empty:not(.hidden):not(.is-mine):not(.is-flagged) {
+  background-color: rgb(209 213 219);
+}
+
+.cell.is-empty:not(.hidden):not(.is-mine):not(.is-flagged):hover {
+  cursor: auto;
+}
+
+
+/* game */
+.game {
+  overflow: hidden;
+}
