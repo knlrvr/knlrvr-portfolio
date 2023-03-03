@@ -38,14 +38,14 @@ export default function Home() {
           <div className="py-16 flex space-x-14">
             <div>
               <Link href="/Projects"
-                className="items-center flex space-x-2 font-thin hover:text-gray-500 hover:underline underline-offset-8">
+                className="items-center flex space-x-2 font-thin hover:text-blue-400 hover:underline underline-offset-8">
                 <span>Recent Projects</span>
                 <BsArrowRight /> 
               </Link>
             </div>
             <div>
               <Link href="/About"
-                className="items-center flex space-x-2 font-thin hover:text-gray-500 hover:underline underline-offset-8">
+                className="items-center flex space-x-2 font-thin hover:text-blue-400 hover:underline underline-offset-8">
                 <span>About Me</span>
                 <BsArrowRight /> 
               </Link>
