@@ -8,7 +8,7 @@ class Cell extends React.Component {
     if (!value.isRevealed) {
       return this.props.value.isFlagged ? "⭕️" : null;
     } else if (value.isMine) {
-      return "💣";
+      return "⚫️";
     } else if (value.isEmpty) {
       return "";
     }
