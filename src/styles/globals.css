@@ -98,7 +98,7 @@ body {
   }
 }
 
-/** text glitch */
+/* text glitch */
 .content {
   display: flex;
   align-content: center;
