@@ -48,11 +48,11 @@ export default function Home() {
           <div className="p-4 row-span-1 col-span-2 w-full h-full flex justify-between items-center font-thin text-xl tracking-[10px]">
             ABSTRACT Store
             <div className="flex space-x-6">
-            <Link href="https://github.com/knlrvr/abstract">
+            <Link href="https://github.com/knlrvr/abstract" target="_blank">
               <BsGithub 
                 className="hover:text-gray-500" />
             </Link>
-            <Link href="https://abstract-knlrvr.vercel.app">
+            <Link href="https://abstract-knlrvr.vercel.app" target="_blank">
               <BsArrowUpRight
                 className="hover:text-gray-500" />
             </Link>
@@ -96,11 +96,11 @@ export default function Home() {
           <div className="p-4 row-span-1 col-span-2 w-full h-full flex justify-between items-center font-thin text-xl tracking-[10px]">
             Workout Tracker
             <div className="flex space-x-6">
-            <Link href="https://github.com/knlrvr/workout-tracker">
+            <Link href="https://github.com/knlrvr/workout-tracker" target="_blank">
               <BsGithub 
                 className="hover:text-gray-500" />
             </Link>
-            <Link href="https://workout-tracker-cd97a.web.app/">
+            <Link href="https://workout-tracker-cd97a.web.app/" target="_blank">
               <BsArrowUpRight
                 className="hover:text-gray-500" />
             </Link>
@@ -141,11 +141,11 @@ export default function Home() {
           <div className="px-4 row-span-1 col-span-2 w-full h-full flex justify-between items-center font-thin text-xl tracking-[10px]">
             Ferd Automotive
             <div className="flex space-x-6">
-            <Link href="https://github.com/knlrvr/ferd">
+            <Link href="https://github.com/knlrvr/ferd" target="_blank">
               <BsGithub 
                 className="hover:text-gray-500" />
             </Link>
-            <Link href="https://knlrvr.github.io/ferd">
+            <Link href="https://knlrvr.github.io/ferd" target="_blank">
               <BsArrowUpRight
                 className="hover:text-gray-500" />
             </Link>
@@ -189,11 +189,11 @@ export default function Home() {
           <div className="p-4 row-span-1 col-span-2 w-full h-full flex justify-between items-center font-thin text-xl tracking-[10px]">
             FAKE Company
             <div className="flex space-x-6">
-            <Link href="https://github.com/knlrvr/fake">
+            <Link href="https://github.com/knlrvr/fake" target="_blank">
               <BsGithub 
                 className="hover:text-gray-500" />
             </Link>
-            <Link href="https://knlrvr.github.io/fake">
+            <Link href="https://knlrvr.github.io/fake" target="_blank">
               <BsArrowUpRight
                 className="hover:text-gray-500" />
             </Link>
@@ -238,7 +238,7 @@ export default function Home() {
           <div className="p-4 row-span-1 col-span-2 w-full h-full flex justify-between items-center font-thin text-xl tracking-[10px]">
               Personal Portfolio
             <div className="flex space-x-6">
-            <Link href="https://github.com/knlrvr/knlrvr-portfolio">
+            <Link href="https://github.com/knlrvr/knlrvr-portfolio" target="_blank">
               <BsGithub 
                 className="hover:text-gray-500" />
             </Link>
