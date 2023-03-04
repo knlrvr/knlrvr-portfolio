@@ -2,7 +2,7 @@ import React, { useEffect, useRef } from 'react'
 
 export default function NewCursor() {
 
-    const cursorRef = useRef(null)
+    const cursorRef = useRef(null) 
 
     useEffect(() => {
         if (cursorRef.current == null || cursorRef == null)
