@@ -30,6 +30,6 @@ export default function NewCursor() {
     return (
         <div className='z-50 cursor border border-black dark:border-white' ref={cursorRef}>
 
-        </div>
+        </div> 
     )
 }
