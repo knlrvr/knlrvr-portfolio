@@ -184,58 +184,7 @@ export default function Home() {
           </div>
         </div>
 
-        {/* 4 */}
-        <div className="grid grid-cols-1 grid-rows-3 md:grid-cols-4 gap-4 group max-w-5xl mx-auto
-                        border border-gray-300 rounded-xl shadow-md md:shadow-none bg-gray-100 mb-4">
-          <div className="hidden col-span-2 row-span-3 w-full h-full md:flex max-w-sm group">
-            <Image 
-              src="/waves.png"
-              width="1000"
-              height="0"
-              alt=""
-              className="rounded-l-xl filter grayscale group-hover:filter-none transition duration-300"
-              />
-          </div>
-          <div className="p-4 row-span-1 col-span-2 w-full h-full flex justify-between items-center font-thin text-xl tracking-[10px]">
-            FAKE Company
-            <div className="flex space-x-6">
-            <Link href="https://github.com/knlrvr/fake" target="_blank">
-              <BsGithub 
-                className="hover:text-gray-500" />
-            </Link>
-            <Link href="https://knlrvr.github.io/fake" target="_blank">
-              <BsArrowUpRight
-                className="hover:text-gray-500" />
-            </Link>
-            </div>
-          </div>
-          <div className="px-4 col-span-2 row-span-1 w-full h-full flex text-left font-thin">
-            A landing page for FAKE, &quot;a company that does not exist.&quot;
-            This site was an experiment for CSS Animations.
-          </div> 
-          <div className="flex flex-wrap justify-evenly items-end col-span-2 pb-4 px-4">
-            <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/html5/html5-original-wordmark.svg" 
-              alt="html5" 
-              width="40" 
-              height="40" 
-              className="md:grayscale group-hover:filter-none transition duration-300"
-            />
-            <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/css3/css3-original-wordmark.svg" 
-              alt="css3" 
-              width="40" 
-              height="40" 
-              className="md:grayscale group-hover:filter-none transition duration-300"
-            />
-            <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/javascript/javascript-original.svg" 
-              alt="javascript" 
-              width="40" 
-              height="40" 
-              className="md:grayscale group-hover:filter-none transition duration-300"
-            />
-          </div>
-        </div>
-
-        {/** 5 */}
+        {/** 4 */}
         <div className="grid grid-cols-1 grid-rows-3 md:grid-cols-4 gap-4 group max-w-5xl mx-auto
                         border border-gray-300 rounded-xl shadow-md md:shadow-none bg-gray-100 mb-12">
           <div className="hidden col-span-2 row-span-3 w-full h-full md:flex max-w-sm group">
