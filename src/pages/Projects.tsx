@@ -203,7 +203,7 @@ export default function Home() {
               <BsGithub 
                 className="hover:text-gray-500" />
             </Link>
-            <Link href="https://github.com/knlrvr/fake" target="_blank">
+            <Link href="https://knlrvr.github.io/fake" target="_blank">
               <BsArrowUpRight
                 className="hover:text-gray-500" />
             </Link>
