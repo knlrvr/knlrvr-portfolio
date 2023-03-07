@@ -139,8 +139,44 @@ export default function Home() {
             /> 
           </div>
         </div>
+        
+        {/* 3 */}
+        <div className="grid grid-cols-1 grid-rows-3 md:grid-cols-4 gap-4 group max-w-5xl mx-auto
+                        border border-gray-300 rounded-xl shadow-md md:shadow-none bg-gray-100 mb-4">
+          <div className="hidden col-span-2 row-span-3 w-full h-full md:flex max-w-sm group">
+            <Image 
+              src="/sheep.png"
+              width="1000"
+              height="0"
+              alt=""
+              className="rounded-l-xl filter grayscale group-hover:filter-none transition duration-300"
+              />
+          </div>
+          <div className="p-4 row-span-1 col-span-2 w-full h-full flex justify-between items-center font-thin text-xl tracking-[10px]">
+            sheepBot
+            <div className="flex space-x-6">
+            <Link href="https://github.com/knlrvr/sheepBot" target="_blank">
+              <BsGithub 
+                className="hover:text-gray-500" />
+            </Link>
+            </div>
+          </div>
+          <div className="px-4 col-span-2 row-span-1 w-full h-full flex text-left font-thin">
+            A simple discord bot made with Node.js & discord.js. This bot currently has two commands. 
+            /sheep will return a bleat, and /lessons will return a random bleat from an array and a random 
+            translation from an array.
+          </div> 
+          <div className="flex flex-wrap justify-evenly items-end col-span-2 pb-4 px-4">
+            <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/nodejs/nodejs-original-wordmark.svg" 
+              alt="react" 
+              width="40" 
+              height="40" 
+              className="md:grayscale group-hover:filter-none transition duration-300"
+            />
+          </div>
+        </div>
 
-        {/** 3 */}
+        {/** 4 */}
         <div className="grid grid-cols-1 grid-rows-3 md:grid-cols-4 gap-4 group max-w-5xl mx-auto
                         border border-gray-300 rounded-xl shadow-md md:shadow-none bg-gray-100 mb-4">
           <div className="hidden col-span-2 row-span-3 w-full h-full md:flex max-w-sm group">
@@ -184,7 +220,7 @@ export default function Home() {
           </div>
         </div>
 
-        {/** 4 */}
+        {/** 5 */}
         <div className="grid grid-cols-1 grid-rows-3 md:grid-cols-4 gap-4 group max-w-5xl mx-auto
                         border border-gray-300 rounded-xl shadow-md md:shadow-none bg-gray-100 mb-12">
           <div className="hidden col-span-2 row-span-3 w-full h-full md:flex max-w-sm group">
