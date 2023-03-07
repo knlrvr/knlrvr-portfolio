@@ -18,3 +18,6 @@ My personal portfolio for 2023! I tried to keep this portfolio simple & minimal 
 1. Clone the project to your machine with `git clone https://github.com/knlrvr/knlrvr-portfolio.git`
 2. On a command line inside of the application's folder, run `npm start`
 3. Open [http://localhost:3000](http://localhost:3000) to view it in the browser
+
+## Notes 
+> Currently trying to dial in the customer cursor as it is visible on iPad Pro. 
