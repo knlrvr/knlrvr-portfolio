@@ -177,7 +177,7 @@ export default function Home() {
         </div>
 
         {/* 4 */}
-        <div className="grid grid-cols-1 grid-rows-3 md:grid-cols-4 gap-4 group max-w-5xl mx-auto
+        <div className="grid grid-cols-1 grid-rows-3 md:grid-cols-4 gap-4 group max-w-6xl mx-auto
                         border border-gray-300 rounded-xl shadow-md md:shadow-none bg-gray-100 mb-4">
           <div className="hidden col-span-2 row-span-3 w-full h-full md:flex max-w-sm group">
             <Image 
