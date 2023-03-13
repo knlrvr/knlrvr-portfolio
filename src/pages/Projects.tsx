@@ -202,9 +202,8 @@ export default function Home() {
             </div>
           </div>
           <div className="p-4 col-span-2 row-span-1 w-full h-full flex text-left font-thin">
-            A notes app built with React. This app uses localStorage to save the notes you create. You can view, edit, or delete 
-            any of the notes you create. There is also a search function so you can easily find your notes, as well as a button that toggles
-            between light mode and dark mode.
+            A notes app built with React. Features include creating, updating, or deleting notes, search bar for easily finding
+            notes, and a button to toggle between light/dark mode!
           </div> 
           <div className="flex flex-wrap justify-evenly items-end col-span-2 pb-4 px-4 group">
             <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/react/react-original-wordmark.svg" 
@@ -217,6 +216,7 @@ export default function Home() {
               alt="css3" 
               width="40" 
               height="40" 
+              className="md:grayscale group-hover:filter-none transition duration-300"
             />
           </div>
         </div>
