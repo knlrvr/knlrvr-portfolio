@@ -176,8 +176,8 @@ export default function Home() {
           </div>
         </div>
 
-        {/** 4 */}
-        <div className="grid grid-cols-1 grid-rows-3 md:grid-cols-4 gap-4 group max-w-6xl mx-auto
+        {/* 4 */}
+        <div className="grid grid-cols-1 grid-rows-3 md:grid-cols-4 gap-4 group max-w-5xl mx-auto
                         border border-gray-300 rounded-xl shadow-md md:shadow-none bg-gray-100 mb-4">
           <div className="hidden col-span-2 row-span-3 w-full h-full md:flex max-w-sm group">
             <Image 
@@ -188,8 +188,8 @@ export default function Home() {
               className="rounded-l-xl filter grayscale group-hover:filter-none transition duration-300"
               />
           </div>
-          <div className="px-4 row-span-1 col-span-2 w-full h-full flex justify-between items-center font-thin text-xl tracking-[10px]">
-            React Notes
+          <div className="p-4 row-span-1 col-span-2 w-full h-full flex justify-between items-center font-thin text-xl tracking-[10px]">
+            React Notes 
             <div className="flex space-x-6">
             <Link href="https://github.com/knlrvr/react-notes" target="_blank">
               <BsGithub 
@@ -201,11 +201,11 @@ export default function Home() {
             </Link>
             </div>
           </div>
-          <div className="p-4 col-span-2 row-span-1 w-full h-full flex text-left font-thin">
-            A notes app built with React. Features include creating, updating, or deleting notes, search bar for easily finding
-            notes, and a button to toggle between light/dark mode!
+          <div className="px-4 col-span-2 row-span-1 w-full h-full flex text-left font-thin">
+            A notes app built with React. Features include creating, updating, or deleting notes, 
+            search bar for easily finding notes, and a button to toggle between light/dark mode!
           </div> 
-          <div className="flex flex-wrap justify-evenly items-end col-span-2 pb-4 px-4 group">
+          <div className="flex flex-wrap justify-evenly items-end col-span-2 pb-4 px-4">
             <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/react/react-original-wordmark.svg" 
               alt="react" 
               width="40" 
