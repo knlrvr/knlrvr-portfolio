@@ -163,7 +163,7 @@ export default function Home() {
           </div>
           <div className="px-4 col-span-2 row-span-1 w-full h-full flex text-left font-thin">
             A simple discord bot made with Node.js & discord.js. This bot currently has two commands. 
-            /sheep will return a bleat, and /lessons will return a random bleat from an array and a random 
+            <em>/sheep</em> will reply with a bleat, and <em>/lessons</em> will reply with a random bleat from an array and a random 
             translation from an array.
           </div> 
           <div className="flex flex-wrap justify-evenly items-end col-span-2 pb-4 px-4">
